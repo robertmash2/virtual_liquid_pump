@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "sydblock",
+	"version": "${version}",
+	"name": "Syd Block",
+	"description": "A custom block mod named after Syd the dog!",
+	"authors": [
+		"rmash"
+	],
+	"contact": {
+		"homepage": "https://github.com/robertmash2/mod_fabric_hello_world",
+		"sources": "https://github.com/robertmash2/mod_fabric_hello_world"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sydblock/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.rmash.sydblock.SydBlockMod"
+		],
+		"client": [
+			"com.rmash.sydblock.SydBlockModClient"
+		]
+	},
+	"mixins": [
+		"sydblock.mixins.json",
+		{
+			"config": "sydblock.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
