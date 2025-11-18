@@ -1,4 +1,4 @@
-package com.rmash.sydblock.mixin;
+package com.rmash.liquidconduits.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

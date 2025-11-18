@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "sydblock:block/syd_block"
+    "all": "liquidconduits:block/liquid_conduit"
   }
 }

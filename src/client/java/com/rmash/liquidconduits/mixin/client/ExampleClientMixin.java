@@ -1,4 +1,4 @@
-package com.rmash.sydblock.mixin.client;
+package com.rmash.liquidconduits.mixin.client;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

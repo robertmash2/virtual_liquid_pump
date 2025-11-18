@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "liquidconduits:block/liquid_conduit"
+    }
+  }
+}

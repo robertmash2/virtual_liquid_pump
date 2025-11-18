@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "sydblock",
+	"id": "liquidconduits",
 	"version": "${version}",
-	"name": "Syd Block",
-	"description": "A custom block mod named after Syd the dog!",
+	"name": "Liquid Conduits",
+	"description": "Instant liquid transport across any distance. Like an ender chest, but for liquids!",
 	"authors": [
 		"rmash"
 	],
 	"contact": {
-		"homepage": "https://github.com/robertmash2/mod_fabric_hello_world",
-		"sources": "https://github.com/robertmash2/mod_fabric_hello_world"
+		"homepage": "https://github.com/robertmash2/virtual_liquid_pump",
+		"sources": "https://github.com/robertmash2/virtual_liquid_pump"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/sydblock/icon.png",
+	"icon": "assets/liquidconduits/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.rmash.sydblock.SydBlockMod"
+			"com.rmash.liquidconduits.LiquidConduitsMod"
 		],
 		"client": [
-			"com.rmash.sydblock.SydBlockModClient"
+			"com.rmash.liquidconduits.LiquidConduitsModClient"
 		]
 	},
 	"mixins": [
-		"sydblock.mixins.json",
+		"liquidconduits.mixins.json",
 		{
-			"config": "sydblock.client.mixins.json",
+			"config": "liquidconduits.client.mixins.json",
 			"environment": "client"
 		}
 	],
